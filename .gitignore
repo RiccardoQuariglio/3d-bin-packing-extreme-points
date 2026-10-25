@@ -1,0 +1,43 @@
+# Ignore all __pycache__ directories everywhere
+__pycache__/
+
+# Ignore all .pyc files
+*.pyc
+
+# Virtualenv locale (non va condiviso via git, si ricrea con requirements.txt)
+.venv/
+
+# Config locale di Claude Code (permessi specifici della macchina/utente)
+.claude/
+
+# Config locale dell'IDE (PyCharm/IntelliJ) - si ricrea da sola all'apertura del progetto
+.idea/
+
+# Note di sessione per Claude, uso privato - NON deve mai finire su GitHub
+riassunto_per_Claude.txt
+
+# --- Non necessari per replicare l'esperimento ---
+
+# Sorgenti della tesi (LaTeX, piano di lavoro, build): sul repo va solo il PDF in docs/
+TESI/
+
+# Viste 3D HTML (~5 MB l'una), rigenerabili con solve(write_html=True, ...)
+thesis_results_with_images/
+
+# Materiale di lavoro / documenti di terzi
+Immagini/
+Articoli per citazioni/
+Esempio tesi.pdf
+template_tesi_polito.pdf
+extremePoints_come_funzionano.pdf
+note_tesi_prox_volta.txt
+Ringraziamenti.txt
+generate_vehicle_comparison_run.log
+
+# Vecchio lanciatore batch, superato da generate_vehicle_comparison.py
+generate_all_solutions.py
+
+# Copia datata dei dataset (con il vecchio secondo veicolo "camion"): fa fede ./datasets
+Dataset Tesi Realistici Generati/datasets/
+# Output di generate_datasets_v2.py (si rigenera)
+Dataset Tesi Realistici Generati/datasets_rigenerati/

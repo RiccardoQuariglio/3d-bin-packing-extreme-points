@@ -1,0 +1,3 @@
+strategy,n_containers,execution_time_seconds
+best_fit,1,0.20082479994744062
+first_fit,1,0.018184700049459934

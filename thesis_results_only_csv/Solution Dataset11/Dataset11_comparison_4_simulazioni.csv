@@ -1,0 +1,5 @@
+vehicle_type,strategy,n_containers,execution_time_seconds,delta_containers_pct_vs_firstfit,delta_time_pct_vs_firstfit
+furgone_ducato_medio,first_fit,1,0.008059199899435043,0.0,0.0
+furgone_ducato_medio,best_fit,1,0.025676700053736567,0.0,218.60110648870398
+furgone_torino_piccolo,first_fit,2,0.008808000013232231,0.0,0.0
+furgone_torino_piccolo,best_fit,2,0.01829220005311072,0.0,107.6771120076113
