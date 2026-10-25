@@ -146,6 +146,10 @@ python validate_v2.py              # validates ../datasets
 - T. G. Crainic, G. Perboli, R. Tadei (2008). *Extreme Point-Based Heuristics for Three-Dimensional Bin Packing.* INFORMS Journal on Computing, 20(3), 368–384.
 - C. S. Chen, S. M. Lee, Q. S. Shen (1995). *An analytical model for the container loading problem.* European Journal of Operational Research, 80(1), 68–76.
 
+## Acknowledgements
+
+The instance format, the dataset loader and the first version of the single-solution checker come from the *Bin-Packing-Environment* provided for the Operations Research course at Politecnico di Torino. The solver, the instance generator, the batch validator and the 3D visualizer (rewritten from the course version) were developed for this thesis.
+
 ## Author
 
 **Riccardo Quariglio** · M.Sc. student in Data Science and Engineering, Politecnico di Torino
